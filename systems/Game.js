@@ -67,6 +67,7 @@ AFRAME.registerSystem('game', {
   restart: function() {
     this.player.el.components.sound.playSound()
     this.removeAllBalls()
+    // GAME.spawnBall()
     // TODO: spawn a new ball!
   },
 
